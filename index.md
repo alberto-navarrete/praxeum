@@ -1,4 +1,14 @@
-## Welcome to GitHub Pages
+## PRAEXUM
+
+«Enseña lo que has aprendido.»
+―Yoda a Luke Skywalker[fuente]
+
+
+La antigua erudita Jedi Karena creó la palabra praxeum para describir una academia Jedi como un lugar para la “destilación del aprendizaje combinado con acción”
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/alberto-navarrete/praxeum/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 

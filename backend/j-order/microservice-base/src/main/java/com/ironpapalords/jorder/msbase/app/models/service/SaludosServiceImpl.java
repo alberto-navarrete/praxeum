@@ -1,15 +1,15 @@
-package com.archetype.ti.hiworld.app.models.service;
+package com.ironpapalords.jorder.msbase.app.models.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.archetype.ti.hiworld.app.models.dao.ISaludoDao;
-import com.archetype.ti.hiworld.app.models.entity.Saludo;
+import com.ironpapalords.jorder.msbase.app.models.dao.ISaludoDao;
+import com.ironpapalords.jorder.msbase.app.models.entity.Saludo;
 
 @Service
-public class SaludosServiceImpl implements ISaludosService{
+public class SaludosServiceImpl implements ISaludosService {
 	@Autowired
 	private ISaludoDao saludoDao;
 
@@ -24,11 +24,11 @@ public class SaludosServiceImpl implements ISaludosService{
 	}
 
 	@Override
-	public Saludo agregarSaludo(Saludo saludo) {		
-		if(saludo == null) {
+	public Saludo agregarSaludo(Saludo saludo) {
+		if (saludo == null) {
 			return null;
 		}
-		
+
 		return saludo = saludoDao.save(saludo);
 	}
 
@@ -41,6 +41,5 @@ public class SaludosServiceImpl implements ISaludosService{
 	public void eliminarSaludo(String locale) {
 		saludoDao.deleteById(locale);
 	}
-	
-	
+
 }

@@ -1,8 +1,8 @@
-package com.archetype.ti.hiworld.app.models.service;
+package com.ironpapalords.jorder.msbase.app.models.service;
 
 import java.util.List;
 
-import com.archetype.ti.hiworld.app.models.entity.Saludo;
+import com.ironpapalords.jorder.msbase.app.models.entity.Saludo;
 
 public interface ISaludosService {
 	public List<Saludo> saludos();

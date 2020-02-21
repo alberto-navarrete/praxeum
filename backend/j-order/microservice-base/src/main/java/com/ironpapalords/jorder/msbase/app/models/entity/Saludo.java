@@ -1,4 +1,4 @@
-package com.archetype.ti.hiworld.app.models.entity;
+package com.ironpapalords.jorder.msbase.app.models.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

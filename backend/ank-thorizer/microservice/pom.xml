@@ -6,15 +6,15 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.ironpapalords</groupId>
-		<artifactId>j-order</artifactId>
+		<groupId>com.ironpapalords.j-order</groupId>
+		<artifactId>ank-thorizer</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>microservice-base</artifactId>
+	<artifactId>microservice</artifactId>
 	<packaging>jar</packaging>
 
-	<name>J Order Microservice Base</name>
+	<name>J Order - ANK-Thorizer Microservice</name>
 	<description>Implementacion de referencia de un microservicio en Spring Boot</description>
 
 	<properties>
@@ -77,7 +77,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>${spring.version}</version>
 				<configuration>
-			        <mainClass>com.ironpapalords.jorder.msbase.DefaultApplicationStarter</mainClass>
+			        <mainClass>com.ironpapalords.jorder.ank.DefaultApplicationStarter</mainClass>
 			    </configuration>
 			    <executions>
 			        <execution>

@@ -16,11 +16,11 @@
 	<modules>
 		<!-- el orden importa -->
 		<module>microservice</module>
-		<module>j-order-war</module>
+		<module>ank-thorizer-war</module>
 	</modules>
 
 	<properties>
-		<spring.version>2.2.4.RELEASE</spring.version>
+		<spring.version>2.2.5.RELEASE</spring.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 

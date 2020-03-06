@@ -1,8 +1,8 @@
-package com.ironpapalords.jorder.ank.app.models.service;
+package com.ironpapalords.jorder.ank.models.service;
 
 import java.util.List;
 
-import com.ironpapalords.jorder.ank.app.models.entity.Usuario;
+import com.ironpapalords.jorder.ank.models.entity.Usuario;
 
 public interface UsuarioService {
 	

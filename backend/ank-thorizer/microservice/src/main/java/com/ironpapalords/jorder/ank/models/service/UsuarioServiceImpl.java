@@ -1,12 +1,12 @@
-package com.ironpapalords.jorder.ank.app.models.service;
+package com.ironpapalords.jorder.ank.models.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ironpapalords.jorder.ank.app.models.dao.UsuariosDAO;
-import com.ironpapalords.jorder.ank.app.models.entity.Usuario;
+import com.ironpapalords.jorder.ank.models.dao.UsuariosDAO;
+import com.ironpapalords.jorder.ank.models.entity.Usuario;
 
 @Service
 public class UsuarioServiceImpl implements UsuarioService {
@@ -16,7 +16,8 @@ public class UsuarioServiceImpl implements UsuarioService {
 
 	@Override
 	public Usuario obtenerUsuario(String correo) {
-		return usuariosDAO.findById(correo).orElse(null);
+		Usuario usuario = usuariosDAO.findById(correo).orElse(null);
+		return usuario;
 	}
 
 	@Override

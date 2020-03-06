@@ -1,3 +1,3 @@
-insert into usuarios(email, password) values('us1@svr.com', 'test');
-insert into usuarios(email, password) values('us2@svr.com', 'test');
-insert into usuarios(email, password) values('us3@svr.com', 'test');
+insert into usuarios(id, email, access_key) values('1',EncryptByPassPhrase('password','us1@svr.com'), EncryptByPassPhrase('password','test1'));
+insert into usuarios(id, email, access_key) values('2',EncryptByPassPhrase('password','us2@svr.com'), EncryptByPassPhrase('password','test2'));
+insert into usuarios(id, email, access_key) values('3',EncryptByPassPhrase('password','us3@svr.com'), EncryptByPassPhrase('password','test3'));
